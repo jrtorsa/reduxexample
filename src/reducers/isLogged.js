@@ -1,5 +1,5 @@
 const loggedUser = (state = false, action) => {
-  switch (action.tyoe) {
+  switch (action.type) {
     case 'SIGN_IN':
       return !state;
     default:
